@@ -53,7 +53,7 @@ In all three runs, sparsity stayed at 0.0% for most of the training and then jum
 
 ## Gate Value Distribution (Best Model)
 
-The plots in `results/gate_dist_lambda_*.png` show the distribution of all gate values after training.
+The plots in `results/gate_dist_lambda_0.01.png` show the distribution of all gate values after training.
 
 For the best model (lambda = 0.001), the distribution is strongly bimodal:
 - A large spike near **0** — the ~94.8% of weights that were pruned
